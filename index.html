@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CityCare Hospital</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f9ff;
+    }
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #023e8a;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #03045e;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CityCare Hospital</h1>
+    <p>We Care for You 24/7</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>CityCare Hospital is a modern medical facility dedicated to providing excellent healthcare. Our staff includes experienced doctors, nurses, and specialists available around the clock.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Emergency</h3>
+        <p>24/7 emergency care with advanced equipment and fast response.</p>
+      </div>
+      <div class="card">
+        <h3>Cardiology</h3>
+        <p>Expert heart care and cardiac surgeries by top specialists.</p>
+      </div>
+      <div class="card">
+        <h3>Neurology</h3>
+        <p>Treatment for brain and nervous system disorders.</p>
+      </div>
+      <div class="card">
+        <h3>Pediatrics</h3>
+        <p>Specialized care for babies, children, and teens.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 123 Health Street, Lahore, Pakistan</p>
+    <p><strong>Phone:</strong> +92 300 1234567</p>
+    <p><strong>Email:</strong> contact@citycarehospital.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CityCare Hospital. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
