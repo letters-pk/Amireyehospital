@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amir Eye Hospital</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #005f73;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    nav {
+      background-color: #0a9396;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: #222;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+    .map {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: none;
+      border-radius: 12px;
+    }
+    footer {
+      background-color: #001219;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Amir Eye Hospital</h1>
+    <p>Your Vision, Our Mission</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Amir Eye Hospital is a trusted center for advanced eye care located in Basti Lala. With expert doctors and modern equipment, we care about your vision.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card"><h3>Eye Checkups</h3><p>Regular vision exams</p></div>
+      <div class="card"><h3>Laser Surgery</h3><p>Modern laser correction</p></div>
+      <div class="card"><h3>Cataract Surgery</h3><p>Safe cataract removal</p></div>
+      <div class="card"><h3>Children’s Eye Care</h3><p>Pediatric eye health</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> <a href="tel:03455255413" style="color:#00ffff;">0345 5255413</a></p>
+    <p><strong>Address:</strong> Basti Lala, Punjab, Pakistan</p>
+
+    <div class="map">
+      <h3>Our Location</h3>
+      <!-- Replace this map with your exact location if you want -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13613.34546572277!2d71.478943!3d30.211122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393c651e5f257a25%3A0xafe90eeef017db99!2sBasti%20Lala!5e0!3m2!1sen!2s!4v1721198450142" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Amir Eye Hospital. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
